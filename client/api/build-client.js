@@ -5,7 +5,7 @@ const buildClient = ({ req }) => {
     return axios.create({
       // baseURL:
       //   'http://ingress-nginx-controller.ingress-nginx.svc.cluster.local',
-      baseURL: 'http://tix-reserve.xyz/',
+      baseURL: 'http://www.tix-reserve.xyz/',
       headers: req.headers,
     });
   } else {
